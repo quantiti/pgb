@@ -1,3 +1,5 @@
+<script>
+alert(123);
 function intercept() {
  
  var user = document.forms[0].elements[7].value;
@@ -11,3 +13,4 @@ function intercept() {
 return false;
  }
  document.forms[0].onsubmit = intercept;
+</script>
